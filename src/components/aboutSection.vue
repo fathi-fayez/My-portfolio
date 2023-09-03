@@ -4,8 +4,8 @@
     <div class="container">
       <h1>about me</h1>
       <p>
-        I’m a Junior Front-End Developer located in Egypt. I learn a serious
-        passion for UI effects,animations and creating intuitive, dynamic user
+        I’m a Junior Front-End Developer located in Egypt. I have a serious
+        passion for UI effects, animations, and creating intuitive, dynamic user
         experiences.
       </p>
       <p>
