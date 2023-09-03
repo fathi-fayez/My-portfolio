@@ -36,7 +36,7 @@
           <!-- project info -->
           <div class="portfolio-item-description">
             <a
-              href="https://e-commerce-website-chi-snowy.vercel.app/"
+              href="https://e-commerce-website-375i.vercel.app/"
               target="_blank"
               class="btn btn-link portfolio-item-title mt-1 mb-0 pb-0"
             >
