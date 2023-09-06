@@ -11,7 +11,7 @@
       <div class="content-wrapper">
         <!-- Logo -->
         <img
-          src="../assets/personal-logo.png"
+          src="../assets/personal-logo-2.png"
           alt="logo"
           class="img-fluid logo rounded-circle"
         />
