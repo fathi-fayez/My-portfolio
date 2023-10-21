@@ -3,6 +3,7 @@
   <header class="page-header d-flex">
     <!-- Background -->
     <div class="content-top-bg">
+      <img src="../assets/header-bg.jpeg" alt="background-image" />
       <div class="content-top-bg-overlay"></div>
     </div>
 
@@ -54,13 +55,19 @@ export default {
 <!-- eslint-disable -->
 <style scoped lang="scss">
 .content-top-bg {
-  background-image: url("../assets/header-bg.jpeg");
+  // background-image: url("../assets/header-bg.jpeg");
   background-position: center;
   background-size: cover;
   height: 100%;
   position: absolute;
   width: 100%;
   z-index: -1;
+
+  img {
+    position: absolute;
+    animation: up-and-down 5s linear infinite;
+    max-width: 100%;
+  }
   .content-top-bg-overlay {
     position: relative;
     height: 100%;
@@ -100,9 +107,12 @@ export default {
 .heading {
   font-size: 1.5rem;
   padding-bottom: 20px;
-  margin-bottom: 0.75rem;
-  margin-top: 2rem;
+  margin: 2rem auto 0.75rem;
   text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 331px;
+  animation: control-width 1s steps(24) 2s both;
 }
 .heading::after {
   display: none;
@@ -111,11 +121,38 @@ export default {
 .subheading {
   font-size: 1rem;
   color: white;
+  animation: popup 3s 3.5s both;
 }
 .social-icons {
   font-size: 34px;
   a {
     margin: 10px;
+  }
+}
+@keyframes up-and-down {
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50% {
+    top: -30px;
+  }
+}
+@keyframes control-width {
+  from {
+    width: 0;
+  }
+  to {
+    width: 331px;
+  }
+}
+@keyframes popup {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 </style>
