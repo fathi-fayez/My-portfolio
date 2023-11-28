@@ -6,7 +6,6 @@
     <div class="row h-100 gy-0 gy-md-2">
       <!-- project -->
       <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
-        <!-- item -->
         <div class="d-inline-block portfolio-item">
           <!-- project logo -->
           <div class="portfolio-item-image-wrapper">
@@ -27,7 +26,6 @@
       </div>
       <!-- project -->
       <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
-        <!-- item -->
         <div class="d-inline-block portfolio-item">
           <!-- project logo -->
           <div class="portfolio-item-image-wrapper">
@@ -48,7 +46,6 @@
       </div>
       <!-- project -->
       <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
-        <!-- item -->
         <div class="d-inline-block portfolio-item">
           <!-- project logo -->
           <div class="portfolio-item-image-wrapper">
@@ -69,7 +66,26 @@
       </div>
       <!-- project -->
       <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
-        <!-- item -->
+        <div class="d-inline-block portfolio-item">
+          <!-- project logo -->
+          <div class="portfolio-item-image-wrapper">
+            <img class="logo" src="../assets/images.png" alt="logo" />
+          </div>
+          <!-- project info -->
+          <div class="portfolio-item-description">
+            <a
+              href="https://notes-app-indol-five.vercel.app/"
+              target="_blank"
+              class="btn btn-link portfolio-item-title mt-1 mb-0 pb-0"
+            >
+              NotesApp
+            </a>
+            <p class="portfolio-item-category text-muted">Record & Keeping</p>
+          </div>
+        </div>
+      </div>
+      <!-- project -->
+      <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
         <div class="d-inline-block portfolio-item">
           <!-- project logo -->
           <div class="portfolio-item-image-wrapper">
@@ -90,7 +106,6 @@
       </div>
       <!-- project -->
       <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
-        <!-- item -->
         <div class="d-inline-block portfolio-item">
           <!-- project logo -->
           <div class="portfolio-item-image-wrapper">
@@ -111,7 +126,6 @@
       </div>
       <!-- project -->
       <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
-        <!-- item -->
         <div class="d-inline-block portfolio-item">
           <!-- project logo -->
           <div class="portfolio-item-image-wrapper">
@@ -125,27 +139,6 @@
               class="btn btn-link portfolio-item-title mt-1 mb-0 pb-0"
             >
               Mealantik
-            </a>
-            <p class="portfolio-item-category text-muted">Food & Drink</p>
-          </div>
-        </div>
-      </div>
-      <!-- project -->
-      <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
-        <!-- item -->
-        <div class="d-inline-block portfolio-item">
-          <!-- project logo -->
-          <div class="portfolio-item-image-wrapper">
-            <img class="logo" src="../assets/project-logo-16.png" alt="logo" />
-          </div>
-          <!-- project info -->
-          <div class="portfolio-item-description">
-            <a
-              href="https://notes-app-indol-five.vercel.app/"
-              target="_blank"
-              class="btn btn-link portfolio-item-title mt-1 mb-0 pb-0"
-            >
-              NotesApp
             </a>
             <p class="portfolio-item-category text-muted">Food & Drink</p>
           </div>

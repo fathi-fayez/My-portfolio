@@ -18,8 +18,7 @@
       </p>
       <a
         class="btn btn-primary btn-xl mt-4"
-        href="https://drive.google.com/file/d/11mCrnPp5zDcRuhRMSq6fj_we-wAkOn_4/view?usp=sharing"
-        download="https://drive.google.com/file/d/1bokvswiDGjS_uHv2iKyDxunDXxq0QJHS/view?usp=sharing"
+        href="https://drive.google.com/file/d/1DTf1hrAeCjzcHVyHfGn5fU06WExcJo_T/view?usp=sharing"
         target="_blank"
         >Download Resume
       </a>
