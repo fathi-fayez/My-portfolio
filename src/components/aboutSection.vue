@@ -18,10 +18,10 @@
       </p>
       <a
         class="btn btn-primary btn-xl mt-4"
-        href="https://drive.google.com/file/d/1DTf1hrAeCjzcHVyHfGn5fU06WExcJo_T/view?usp=sharing"
-        target="_blank"
-        >Download Resume
-      </a>
+        href="https://drive.google.com/uc?export=download&id=1pj1qx60OKUZJo015diCC4nVyIdmnVELm"
+        download="Your-Resume.pdf"
+        >Download Resume</a
+      >
     </div>
   </div>
 </template>
