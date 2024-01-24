@@ -30,11 +30,7 @@
               target="_blank"
               ><i class="fa-brands fa-linkedin" style="color: #0a66c2"></i
             ></a>
-            <a
-              href="https://www.facebook.com/profile.php?id=100005083479476"
-              target="_blank"
-              ><i class="fa-brands fa-facebook" style="color: #1877f2"></i
-            ></a>
+
             <a href="mailto:fathifayez155@gmail.com" target="_blank"
               ><i class="fa-brands fa-google" style="color: #ea4335"></i
             ></a>

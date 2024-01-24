@@ -23,21 +23,19 @@
 
         <!-- Social Icons -->
         <div class="social-icons">
+          <!-- Github -->
           <a
             href="https://github.com/fathi-fayez?tab=repositorieshttps://github.com/fathi-fayez?tab=repositories"
             target="_blank"
             ><i class="fa-brands fa-github" style="color: #4078c0"></i
           ></a>
+          <!-- LInkedin -->
           <a
             href="https://www.linkedin.com/in/fathi-fayez-0416671a6/"
             target="_blank"
             ><i class="fa-brands fa-linkedin" style="color: #0a66c2"></i
           ></a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100005083479476"
-            target="_blank"
-            ><i class="fa-brands fa-facebook" style="color: #1877f2"></i
-          ></a>
+          <!-- Gmail -->
           <a href="mailto:fathifayez155@gmail.com" target="_blank"
             ><i class="fa-brands fa-google" style="color: #ea4335"></i
           ></a>
@@ -54,6 +52,9 @@ export default {
 </script>
 <!-- eslint-disable -->
 <style scoped lang="scss">
+.page-header {
+  height: calc(100vb - 56px);
+}
 .content-top-bg {
   // background-image: url("../assets/header-bg.jpeg");
   background-position: center;

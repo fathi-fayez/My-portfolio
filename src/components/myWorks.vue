@@ -3,7 +3,7 @@
   <div class="projects" id="myworks-section">
     <h1>my work</h1>
     <!-- Grid View -->
-    <div class="row h-100 gy-0 gy-md-2">
+    <div class="row m-0 h-100 gy-0 gy-md-2">
       <!-- project -->
       <div class="col-6 col-sm-4 p-0 p-sm-2 mb-4 text-center">
         <div class="d-inline-block portfolio-item">
