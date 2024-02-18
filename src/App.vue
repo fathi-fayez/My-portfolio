@@ -19,7 +19,7 @@ import navBar from "@/components/navComponent.vue";
 import Header from "@/components/Header.vue";
 import AboutSection from "./components/aboutSection.vue";
 import MySkills from "./components/mySkills.vue";
-import myWorks from "./components/myWorks.vue";
+import myWorks from "./components/myNewWorks.vue";
 import Footer from "./components/Footer.vue";
 export default {
   name: "HomeView",
