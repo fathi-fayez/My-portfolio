@@ -45,11 +45,11 @@
         >
           <div class="project card mb-4">
             <img
-              src="../assets/project-logo-2.png"
+              src="../assets/project-logo-6.png"
               class="card-img-top"
               alt="project-image"
             />
-            <h5 class="card-title p-3">Car shop</h5>
+            <h5 class="card-title p-3">Admin dashboard</h5>
           </div>
         </a>
       </div>
@@ -66,7 +66,7 @@
               class="card-img-top"
               alt="project-image"
             />
-            <h5 class="card-title p-3">European Weather Forecast</h5>
+            <h5 class="card-title p-3">European weather forecast</h5>
           </div>
         </a>
       </div>
