@@ -1,7 +1,7 @@
 <template>
   <div class="my-work container" id="myworks-section">
     <h1>My Work</h1>
-    <div class="row">
+    <div class="row justify-content-center">
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2 rounded">
         <a
@@ -18,6 +18,13 @@
             <h5 class="card-title p-3">E-commerce</h5>
           </div>
         </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/e-commerce-website"
+          target="_blank"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
       </div>
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
@@ -35,6 +42,13 @@
             <h5 class="card-title p-3">Car shop</h5>
           </div>
         </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/car-shop"
+          target="_blank"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
       </div>
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
@@ -52,6 +66,13 @@
             <h5 class="card-title p-3">Admin dashboard</h5>
           </div>
         </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/admin-dashboard"
+          target="_blank"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
       </div>
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
@@ -66,9 +87,16 @@
               class="card-img-top"
               alt="project-image"
             />
-            <h5 class="card-title p-3">European weather forecast</h5>
+            <h5 class="card-title p-3">Weather forecast</h5>
           </div>
         </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/European-Weather-Forecast-project"
+          target="_blank"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
       </div>
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
@@ -86,6 +114,13 @@
             <h5 class="card-title p-3">Todo App</h5>
           </div>
         </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/todo-App-vue"
+          target="_blank"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
       </div>
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
@@ -103,6 +138,13 @@
             <h5 class="card-title p-3">Travel App</h5>
           </div>
         </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/travel-app"
+          target="_blank"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
       </div>
     </div>
   </div>
@@ -154,6 +196,7 @@ export default {
     transition: 0.5s;
     box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
       0px 2px 4px 0px rgb(0 0 0 / 12%);
+    position: relative;
   }
   .project {
     overflow: hidden;
@@ -174,6 +217,16 @@ export default {
   }
   .project:hover::before {
     animation: flashing 0.8s;
+  }
+  .github-icon {
+    position: absolute;
+    left: 10px;
+    bottom: 3px;
+    font-size: 35px;
+    transition: 0.3s;
+  }
+  .github-icon:hover {
+    font-size: 40px;
   }
 }
 @keyframes flashing {
