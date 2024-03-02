@@ -39,6 +39,23 @@
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
         <a
+          href="https://admin-dashboard-xi-lime.vercel.app/"
+          target="_blank"
+          class="btn p-0"
+        >
+          <div class="project card mb-4">
+            <img
+              src="../assets/project-logo-2.png"
+              class="card-img-top"
+              alt="project-image"
+            />
+            <h5 class="card-title p-3">Car shop</h5>
+          </div>
+        </a>
+      </div>
+      <!-- project -->
+      <div class="project-container col-md-3 p-0 m-2">
+        <a
           href="https://european-weather-forecast.vercel.app/"
           target="_blank"
           class="btn p-0"
