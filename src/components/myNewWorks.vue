@@ -23,6 +23,7 @@
           class="github-icon"
           href="https://github.com/fathi-fayez/e-commerce-website"
           target="_blank"
+          title="View source code"
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
         ></a>
       </div>
@@ -47,6 +48,7 @@
           class="github-icon"
           href="https://github.com/fathi-fayez/car-shop"
           target="_blank"
+          title="View source code"
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
         ></a>
       </div>
@@ -71,6 +73,7 @@
           class="github-icon"
           href="https://github.com/fathi-fayez/admin-dashboard"
           target="_blank"
+          title="View source code"
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
         ></a>
       </div>
@@ -95,6 +98,7 @@
           class="github-icon"
           href="https://github.com/fathi-fayez/European-Weather-Forecast-project"
           target="_blank"
+          title="View source code"
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
         ></a>
       </div>
@@ -119,6 +123,7 @@
           class="github-icon"
           href="https://github.com/fathi-fayez/todo-App-vue"
           target="_blank"
+          title="View source code"
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
         ></a>
       </div>
@@ -143,6 +148,7 @@
           class="github-icon"
           href="https://github.com/fathi-fayez/travel-app"
           target="_blank"
+          title="View source code"
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
         ></a>
       </div>
@@ -197,6 +203,12 @@ export default {
     box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
       0px 2px 4px 0px rgb(0 0 0 / 12%);
     position: relative;
+    overflow: hidden;
+  }
+  .project-container:hover {
+    .github-icon {
+      bottom: 3px;
+    }
   }
   .project {
     overflow: hidden;
@@ -218,10 +230,15 @@ export default {
   .project:hover::before {
     animation: flashing 0.8s;
   }
+  .project:hover {
+    h5 {
+      color: rgb(42, 13, 235);
+    }
+  }
   .github-icon {
     position: absolute;
     left: 10px;
-    bottom: 3px;
+    bottom: -50px;
     font-size: 35px;
     transition: 0.3s;
   }
