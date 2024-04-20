@@ -40,17 +40,63 @@
         </div>
         <!-- skill -->
         <div class="col-6 col-sm-4 col-lg-3">
+          <span><i class="fa-brands fa-github"></i></span>
+          <h4 class="text-uppercase">git & github</h4>
+        </div>
+        <!-- skill -->
+        <div class="col-6 col-sm-4 col-lg-3">
           <img
             class="tailwind-image"
-            src="../assets/download-removebg-preview.png"
+            src="../assets/images/skills-logo/download-removebg-preview.png"
             alt=""
           />
           <h4 class="text-uppercase">tailwind</h4>
         </div>
         <!-- skill -->
         <div class="col-6 col-sm-4 col-lg-3">
-          <img class="typescript-image" src="../assets/download.png" alt="" />
+          <img
+            src="../assets/images/skills-logo/vuetify_logo_icon_249240.png"
+            alt=""
+          />
+          <h4 class="text-uppercase">vuetify</h4>
+        </div>
+        <!-- skill -->
+        <div class="col-6 col-sm-4 col-lg-3">
+          <img
+            class="typescript-image"
+            src="../assets/images/skills-logo/download.png"
+            alt=""
+          />
           <h4 class="text-uppercase">typescript</h4>
+        </div>
+        <!-- skill -->
+        <div class="col-6 col-sm-4 col-lg-3">
+          <img
+            src="../assets/images/skills-logo/pugjs_logo_icon_170825.png"
+            alt=""
+          />
+          <h4 class="text-uppercase">pug js</h4>
+        </div>
+        <!-- skill -->
+        <div class="col-6 col-sm-4 col-lg-3">
+          <span><i class="fa-brands fa-gulp" style="color: #b80000"></i></span>
+          <h4 class="text-uppercase">gulp js</h4>
+        </div>
+        <!-- skill -->
+        <div class="col-6 col-sm-4 col-lg-3">
+          <img
+            src="../assets/images/skills-logo/file_type_jest_icon_130514.png"
+            alt=""
+          />
+          <h4 class="text-uppercase">jest js</h4>
+        </div>
+        <!-- skill -->
+        <div class="col-6 col-sm-4 col-lg-3">
+          <img
+            src="../assets/images/skills-logo/nuxt_js_logo_icon_145021.png"
+            alt=""
+          />
+          <h4 class="text-uppercase">nuxt js</h4>
         </div>
       </div>
     </div>
@@ -74,6 +120,9 @@ export default {
     margin-bottom: 10px;
     border-radius: 50%;
     padding: 30px;
+  }
+  img {
+    width: 100px;
   }
   .tailwind-image {
     margin-bottom: 20px;

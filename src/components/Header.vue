@@ -3,7 +3,7 @@
   <header class="page-header d-flex">
     <!-- Background -->
     <div class="content-top-bg">
-      <img src="../assets/header-bg.jpeg" alt="background-image" />
+      <img src="../assets/images/header-bg.jpeg" alt="background-image" />
       <div class="content-top-bg-overlay"></div>
     </div>
 
@@ -12,7 +12,7 @@
       <div class="content-wrapper">
         <!-- Logo -->
         <img
-          src="../assets/personal-logo-2.png"
+          src="../assets/images/personal-logo-2.png"
           alt="logo"
           class="img-fluid logo rounded-circle"
         />

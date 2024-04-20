@@ -11,7 +11,7 @@
         >
           <div class="project card mb-4">
             <img
-              src="../assets/project-logo-1.png"
+              src="../assets/images/projects-logo/project-logo-1.png"
               class="card-img-top"
               alt="project-image"
             />
@@ -36,7 +36,7 @@
         >
           <div class="project card mb-4">
             <img
-              src="../assets/project-logo-2.png"
+              src="../assets/images/projects-logo/project-logo-2.png"
               class="card-img-top"
               alt="project-image"
             />
@@ -61,7 +61,7 @@
         >
           <div class="project card mb-4">
             <img
-              src="../assets/project-logo-6.png"
+              src="../assets/images/projects-logo/project-logo-6.png"
               class="card-img-top"
               alt="project-image"
             />
@@ -86,7 +86,7 @@
         >
           <div class="project card mb-4">
             <img
-              src="../assets/project-logo-3.png"
+              src="../assets/images/projects-logo/project-logo-3.png"
               class="card-img-top"
               alt="project-image"
             />
@@ -111,7 +111,7 @@
         >
           <div class="project card mb-4">
             <img
-              src="../assets/project-logo-4.png"
+              src="../assets/images/projects-logo/project-logo-4.png"
               class="card-img-top"
               alt="project-image"
             />
@@ -136,7 +136,7 @@
         >
           <div class="project card mb-4">
             <img
-              src="../assets/project-logo-5.png"
+              src="../assets/images/projects-logo/project-logo-5.png"
               class="card-img-top"
               alt="project-image"
             />
