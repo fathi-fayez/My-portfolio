@@ -3,6 +3,31 @@
     <h1>My Work</h1>
     <div class="row justify-content-center">
       <!-- project -->
+      <div class="project-container col-md-3 p-0 m-2">
+        <a
+          href="https://admin-dashboard-xi-lime.vercel.app/"
+          target="_blank"
+          class="btn p-0"
+        >
+          <div class="project card mb-4">
+            <img
+              src="../assets/images/projects-logo/project-logo-6.png"
+              class="card-img-top"
+              alt="project-image"
+            />
+            <h5 class="card-title p-3">Admin dashboard</h5>
+          </div>
+        </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/admin-dashboard"
+          target="_blank"
+          title="View source code"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
+      </div>
+      <!-- project -->
       <div class="project-container col-md-3 p-0 m-2 rounded">
         <a
           href="https://e-commerce-website-375i.vercel.app/"
@@ -47,31 +72,6 @@
         <a
           class="github-icon"
           href="https://github.com/fathi-fayez/car-shop"
-          target="_blank"
-          title="View source code"
-          ><i class="fa-brands fa-github" style="color: #4078c0"></i
-        ></a>
-      </div>
-      <!-- project -->
-      <div class="project-container col-md-3 p-0 m-2">
-        <a
-          href="https://admin-dashboard-xi-lime.vercel.app/"
-          target="_blank"
-          class="btn p-0"
-        >
-          <div class="project card mb-4">
-            <img
-              src="../assets/images/projects-logo/project-logo-6.png"
-              class="card-img-top"
-              alt="project-image"
-            />
-            <h5 class="card-title p-3">Admin dashboard</h5>
-          </div>
-        </a>
-        <!-- source code link -->
-        <a
-          class="github-icon"
-          href="https://github.com/fathi-fayez/admin-dashboard"
           target="_blank"
           title="View source code"
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
