@@ -1,7 +1,32 @@
 <template>
   <div class="my-work container" id="myworks-section">
     <h1>My Work</h1>
-    <div class="row justify-content-center">
+    <div class="row">
+      <!-- project -->
+      <div class="project-container col-md-3 p-0 m-2">
+        <a
+          href="https://bouncer-store-pi.vercel.app/"
+          target="_blank"
+          class="btn p-0"
+        >
+          <div class="project card mb-4">
+            <img
+              src="../assets/images/projects-logo/project-logo-7.png"
+              class="card-img-top"
+              alt="project-image"
+            />
+            <h5 class="card-title p-3">Bouncer Store</h5>
+          </div>
+        </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/bouncer-store"
+          target="_blank"
+          title="View source code"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
+      </div>
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
         <a
@@ -102,31 +127,7 @@
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
         ></a>
       </div>
-      <!-- project -->
-      <div class="project-container col-md-3 p-0 m-2">
-        <a
-          href="https://todo-app-vue-rho.vercel.app/"
-          target="_blank"
-          class="btn p-0"
-        >
-          <div class="project card mb-4">
-            <img
-              src="../assets/images/projects-logo/project-logo-4.png"
-              class="card-img-top"
-              alt="project-image"
-            />
-            <h5 class="card-title p-3">Todo App</h5>
-          </div>
-        </a>
-        <!-- source code link -->
-        <a
-          class="github-icon"
-          href="https://github.com/fathi-fayez/todo-App-vue"
-          target="_blank"
-          title="View source code"
-          ><i class="fa-brands fa-github" style="color: #4078c0"></i
-        ></a>
-      </div>
+
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
         <a
@@ -204,6 +205,9 @@ export default {
       0px 2px 4px 0px rgb(0 0 0 / 12%);
     position: relative;
     overflow: hidden;
+    .card-img-top {
+      width: 100%;
+    }
   }
   .project-container:hover {
     .github-icon {
