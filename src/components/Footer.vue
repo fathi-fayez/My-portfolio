@@ -46,7 +46,7 @@
 
         <!-- Copyright -->
         <div class="col-lg-12 copyright-column">
-          <small class="text-muted">Copyright © Fathi Fayez 2023</small>
+          <small class="text-muted">Copyright © Fathi Fayez 2024</small>
         </div>
       </div>
     </div>
