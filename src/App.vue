@@ -1,4 +1,5 @@
 <template>
+  <navigation-bullets></navigation-bullets>
   <!-- nav bar -->
   <navBar />
   <!-- header -->
@@ -15,6 +16,7 @@
 </template>
 
 <script>
+import navigationBullets from "@/components/navigation-bullets";
 import navBar from "@/components/navComponent.vue";
 import Header from "@/components/Header.vue";
 import AboutSection from "./components/aboutSection.vue";
@@ -23,7 +25,15 @@ import myWorks from "./components/myNewWorks.vue";
 import Footer from "./components/Footer.vue";
 export default {
   name: "HomeView",
-  components: { navBar, Header, AboutSection, MySkills, myWorks, Footer },
+  components: {
+    navigationBullets,
+    navBar,
+    Header,
+    AboutSection,
+    MySkills,
+    myWorks,
+    Footer,
+  },
 };
 </script>
 
