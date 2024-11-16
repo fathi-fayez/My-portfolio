@@ -18,7 +18,9 @@
       </p>
       <a
         class="btn btn-primary btn-xl mt-4"
-        href="https://drive.google.com/uc?export=download&id=1GupFBrRJbbiRjGjFCQj0nMeyMwMOIBNR"
+        href="https://drive.google.com/uc?export=download&id=1djCgwK80LPkHm86R1vvS_f-WMRO9U6W1
+"
+
         download="Your-Resume.pdf"
         >Download Resume</a
       >
