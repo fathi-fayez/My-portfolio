@@ -1,6 +1,6 @@
 <!-- eslint-disable -->
 <template>
-  <nav class="navbar navbar-expand-lg bg-black sticky-top">
+  <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid justify-content-around">
       <a class="navbar-brand text-light" href="#">My Portfolio</a>
       <button
@@ -48,6 +48,17 @@ export default {
 </script>
 <!-- eslint-disable -->
 <style lang="scss" scoped>
+nav {
+  animation: nav ease-in-out both;
+  animation-timeline: scroll();
+  animation-range: 0 90vh;
+  padding: 30px;
+  background-color: black;
+  overflow: visible;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+
 .collapse {
   flex-grow: 0;
 
@@ -58,5 +69,32 @@ export default {
 }
 .nav-link:hover {
   background-color: rgb(55, 13, 239);
+}
+
+@keyframes nav {
+  0% {
+    width: 100%;
+  }
+  70% {
+    width: 100%;
+    border-radius: 0;
+    translate: 0 -100%;
+  }
+  90% {
+    top: 0;
+    width: min(600px, 100%);
+    translate: 0 -100%;
+    box-shadow: 0 0 0 rgba(0 0 0 / 0);
+  }
+  100% {
+    width: min(900px, 100%);
+    background-color: rgb(156, 156, 179);
+    top: 5px;
+    height: 48px;
+    border-radius: 99em;
+    translate: 0 0;
+    box-shadow: inset 0 1px 1px white, 0 0 1px rgba(0 0 0 / 0.9),
+      0 8px 14px rgba(0 0 0 / 0.3);
+  }
 }
 </style>
