@@ -1,16 +1,10 @@
 <template>
   <navigation-bullets></navigation-bullets>
-  <!-- nav bar -->
   <navBar />
-  <!-- header -->
   <Header></Header>
-  <!-- about section -->
   <about-section></about-section>
-  <!-- my skills section -->
   <my-skills></my-skills>
-  <!-- my works section -->
   <myWorks></myWorks>
-  <!-- footer -->
   <Footer></Footer>
   <router-view />
 </template>
