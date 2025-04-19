@@ -9,7 +9,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a @click="closeNavbar" v-scroll-to="'#about-section'" class="nav-link active text-light" aria-current="page"
+          <a @click="closeNavbar" v-scroll-to="'#about-section'" class="nav-link text-light" aria-current="page"
             href="#">About Me</a>
           <a @click="closeNavbar" v-scroll-to="'#myskills-section'" class="nav-link text-light" href="#">My Skills</a>
           <a @click="closeNavbar" v-scroll-to="'#myworks-section'" class="nav-link text-light" href="#">My Work</a>
@@ -29,7 +29,7 @@ export default {
         navbarCollapse.classList.remove("show");
       }
     },
-    
+
     handleClickOutside(event) {
       const navbar = this.$refs.navbar;
       const navbarCollapse = document.getElementById("navbarNavAltMarkup");
@@ -74,6 +74,8 @@ nav {
 
 .nav-link:hover {
   background-color: rgb(55, 13, 239);
+  border-radius: 5px;
+  padding: 10px;
 }
 
 
