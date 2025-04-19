@@ -1,7 +1,7 @@
 <template>
   <div class="my-work container" id="myworks-section">
     <h1>My Work</h1>
-    <div class="row">
+    <div class="row justify-content-center">
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
         <a

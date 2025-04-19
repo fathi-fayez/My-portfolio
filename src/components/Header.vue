@@ -53,8 +53,9 @@ export default {
 <!-- eslint-disable -->
 <style scoped lang="scss">
 .page-header {
-  height: calc(100vb - 56px);
+ height: calc(100vb - 56px);
 }
+
 .content-top-bg {
   // background-image: url("../assets/header-bg.jpeg");
   background-position: center;
@@ -68,7 +69,17 @@ export default {
     position: absolute;
     animation: up-and-down 5s linear infinite;
     max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
+
+  @media (max-width: 768px) {
+    img {
+        object-fit: none;
+    }
+  }
+
   .content-top-bg-overlay {
     position: relative;
     height: 100%;
@@ -107,7 +118,7 @@ export default {
 }
 .heading {
   font-size: 1.5rem;
-  padding-bottom: 20px;
+  padding-bottom: 0;
   margin: 2rem auto 0.75rem;
   text-transform: uppercase;
   overflow: hidden;
@@ -123,6 +134,18 @@ export default {
   font-size: 1rem;
   color: white;
   animation: popup 3s 3.5s both;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .subheading {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
 }
 .social-icons {
   font-size: 34px;

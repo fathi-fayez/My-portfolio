@@ -1,6 +1,6 @@
 <!-- eslint-disable -->
 <template>
-  <nav class="navbar navbar-expand-lg sticky-top">
+  <nav class="navbar navbar-expand-lg sticky-top" ref="navbar">
     <div class="container-fluid justify-content-around">
       <a class="navbar-brand text-light" href="#">My Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -9,9 +9,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a v-scroll-to="'#about-section'" class="nav-link active text-light" aria-current="page" href="#">About Me</a>
-          <a v-scroll-to="'#myskills-section'" class="nav-link text-light" href="#">My Skills</a>
-          <a v-scroll-to="'#myworks-section'" class="nav-link text-light" href="#">My Work</a>
+          <a @click="closeNavbar" v-scroll-to="'#about-section'" class="nav-link active text-light" aria-current="page"
+            href="#">About Me</a>
+          <a @click="closeNavbar" v-scroll-to="'#myskills-section'" class="nav-link text-light" href="#">My Skills</a>
+          <a @click="closeNavbar" v-scroll-to="'#myworks-section'" class="nav-link text-light" href="#">My Work</a>
         </div>
       </div>
     </div>
@@ -21,6 +22,32 @@
 <script>
 export default {
   name: "navBar",
+  methods: {
+    closeNavbar() {
+      const navbarCollapse = document.getElementById("navbarNavAltMarkup");
+      if (navbarCollapse.classList.contains("show")) {
+        navbarCollapse.classList.remove("show");
+      }
+    },
+    
+    handleClickOutside(event) {
+      const navbar = this.$refs.navbar;
+      const navbarCollapse = document.getElementById("navbarNavAltMarkup");
+      if (
+        navbarCollapse.classList.contains("show") &&
+        navbar &&
+        !navbar.contains(event.target)
+      ) {
+        navbarCollapse.classList.remove("show");
+      }
+    },
+  },
+  mounted() {
+    document.addEventListener("click", this.handleClickOutside);
+  },
+  beforeUnmount() {
+    document.removeEventListener("click", this.handleClickOutside);
+  },
 };
 </script>
 <!-- eslint-disable -->
@@ -48,6 +75,13 @@ nav {
 .nav-link:hover {
   background-color: rgb(55, 13, 239);
 }
+
+
+.navbar-toggler-icon {
+  filter: brightness(0.3) invert(1) contrast(2);
+}
+
+
 
 // @keyframes nav {
 //   0% {
