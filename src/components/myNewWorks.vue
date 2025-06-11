@@ -103,6 +103,23 @@
         ></a>
       </div>
       <!-- project -->
+      <div class="project-container col-md-3 p-0 m-2 rounded">
+        <a
+          href="https://cafvy.web-pioneer.cloud/"
+          target="_blank"
+          class="btn p-0"
+        >
+          <div class="project card mb-4">
+            <img
+              src="../assets/images/projects-logo/project-logo-9.png"
+              class="card-img-top"
+              alt="project-image"
+            />
+            <h5 class="card-title p-3">Cafvy booking app</h5>
+          </div>
+        </a>
+      </div>
+      <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
         <a
           href="https://car-shop-one-mu.vercel.app/"

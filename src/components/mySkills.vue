@@ -35,9 +35,20 @@
               <span><i class="fa-brands fa-vuejs" style="color: #42b883"></i></span>
               <h4 class="text-uppercase">Vue.js</h4>
             </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 skill-item">
+              <img src="../assets/images/skills-logo/images.png" alt="Nuxt.js" />
+              <h4 class="text-uppercase">React</h4>
+            </div>
+
             <div class="col-6 col-sm-4 col-lg-3 skill-item">
               <img src="../assets/images/skills-logo/nuxt_js_logo_icon_145021.png" alt="Nuxt.js" />
               <h4 class="text-uppercase">Nuxt.js</h4>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 skill-item">
+              <img src="../assets/images/skills-logo/next2.jpg" alt="Nuxt.js" />
+              <h4 class="text-uppercase">Next.js</h4>
             </div>
 
           </div>
@@ -148,12 +159,21 @@ export default {
       padding: 15px;
     }
 
-    svg,
-    img {
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 80px;
       height: 80px;
+    }
+
+    img {
+      height: 80px;
+    }
+
+    img, svg {
+      width: 80px;
       font-size: 50px;
-      /* For Font Awesome icons */
       border-radius: 50%;
       padding: 15px;
       background: #f5f5f5;
