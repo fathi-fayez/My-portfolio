@@ -75,8 +75,14 @@ nav {
 .nav-link:hover {
   background-color: rgb(55, 13, 239);
   border-radius: 5px;
-  padding: 10px;
 }
+
+@media (max-width: 991px) {
+  .nav-link:hover {
+    padding: 10px;
+  }
+}
+
 
 
 .navbar-toggler-icon {
