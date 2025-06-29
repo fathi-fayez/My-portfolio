@@ -11,11 +11,7 @@
     <div class="container m-auto pb-5">
       <div class="content-wrapper">
         <!-- Logo -->
-        <img
-          src="../assets/images/personal-logo-2.png"
-          alt="logo"
-          class="img-fluid logo rounded-circle"
-        />
+        <img src="../assets/images/personal-logo-2.png" alt="logo" class="img-fluid logo rounded-circle" />
 
         <!-- Texts -->
         <h1 class="heading">Welcome, I'm Fathi Fayez</h1>
@@ -24,21 +20,18 @@
         <!-- Social Icons -->
         <div class="social-icons">
           <!-- Github -->
-          <a
-            href="https://github.com/fathi-fayez?tab=repositorieshttps://github.com/fathi-fayez?tab=repositories"
-            target="_blank"
-            ><i class="fa-brands fa-github" style="color: #4078c0"></i
-          ></a>
+          <a href="https://github.com/fathi-fayez?tab=repositorieshttps://github.com/fathi-fayez?tab=repositories"
+            target="_blank"><i class="fa-brands fa-github" style="color: #4078c0"></i></a>
           <!-- LInkedin -->
-          <a
-            href="https://www.linkedin.com/in/fathi-fayez-0416671a6/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin" style="color: #0a66c2"></i
-          ></a>
+          <a href="https://www.linkedin.com/in/fathi-fayez-0416671a6/" target="_blank"><i class="fa-brands fa-linkedin"
+              style="color: #0a66c2"></i></a>
+          <!-- Whatsapp -->
+          <a href="https://wa.me/201550395381" target="_blank"><i class="fa-brands fa-whatsapp"
+              style="color: #25d366"></i></a>
           <!-- Gmail -->
-          <a href="mailto:fathifayez155@gmail.com" target="_blank"
-            ><i class="fa-brands fa-google" style="color: #ea4335"></i
-          ></a>
+          <a href="mailto:fathifayez155@gmail.com" target="_blank"><i class="fa-brands fa-google"
+              style="color: #ea4335"></i></a>
+
         </div>
       </div>
     </div>

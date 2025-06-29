@@ -26,6 +26,9 @@
             <a href="https://www.linkedin.com/in/fathi-fayez-0416671a6/" target="_blank"><i
                 class="fa-brands fa-linkedin" style="color: #0a66c2"></i></a>
 
+            <a href="https://wa.me/201550395381" target="_blank"><i class="fa-brands fa-whatsapp"
+                style="color: #25d366"></i></a>
+
             <a href="mailto:fathifayez155@gmail.com" target="_blank"><i class="fa-brands fa-google"
                 style="color: #ea4335"></i></a>
           </div>
@@ -39,7 +42,7 @@
 
         <!-- Copyright -->
         <div class="col-lg-12 copyright-column">
-            <small class="text-muted">Copyright © Fathi Fayez {{ new Date().getFullYear() }}</small>
+          <small class="text-muted">Copyright © Fathi Fayez {{ new Date().getFullYear() }}</small>
         </div>
       </div>
     </div>
