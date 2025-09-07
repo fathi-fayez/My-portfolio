@@ -23,7 +23,7 @@
             </p>
 
             <a class="btn btn-primary btn-xl mt-4"
-              href="https://drive.google.com/uc?export=download&id=1MQm1Z5RqfU1Gke1JC9TsPYRwkGuLT2nH"
+              href="https://drive.google.com/uc?export=download&id=1po5qWNQW07XCo7wAopI4sXdITLBKkqig"
               download="Fathi Fayez-Resume.pdf">Download Resume</a>
           </div>
         </div>

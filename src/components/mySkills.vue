@@ -32,18 +32,8 @@
           <h3>Frameworks & Libraries</h3>
           <div class="row text-center gy-3">
             <div class="col-6 col-sm-4 col-lg-3 skill-item">
-              <span><i class="fa-brands fa-vuejs" style="color: #42b883"></i></span>
-              <h4 class="text-uppercase">Vue.js</h4>
-            </div>
-
-            <div class="col-6 col-sm-4 col-lg-3 skill-item">
               <img src="../assets/images/skills-logo/images.png" alt="Nuxt.js" />
               <h4 class="text-uppercase">React</h4>
-            </div>
-
-            <div class="col-6 col-sm-4 col-lg-3 skill-item">
-              <img src="../assets/images/skills-logo/nuxt_js_logo_icon_145021.png" alt="Nuxt.js" />
-              <h4 class="text-uppercase">Nuxt.js</h4>
             </div>
 
             <div class="col-6 col-sm-4 col-lg-3 skill-item">
@@ -51,6 +41,15 @@
               <h4 class="text-uppercase">Next.js</h4>
             </div>
 
+            <div class="col-6 col-sm-4 col-lg-3 skill-item">
+              <span><i class="fa-brands fa-vuejs" style="color: #42b883"></i></span>
+              <h4 class="text-uppercase">Vue.js</h4>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 skill-item">
+              <img src="../assets/images/skills-logo/nuxt_js_logo_icon_145021.png" alt="Nuxt.js" />
+              <h4 class="text-uppercase">Nuxt.js</h4>
+            </div>
           </div>
         </div>
 
@@ -171,7 +170,8 @@ export default {
       height: 80px;
     }
 
-    img, svg {
+    img,
+    svg {
       width: 80px;
       font-size: 50px;
       border-radius: 50%;

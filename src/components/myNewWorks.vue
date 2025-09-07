@@ -30,6 +30,31 @@
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
         <a
+          href="https://react-food-delivery-app-chi.vercel.app/"
+          target="_blank"
+          class="btn p-0"
+        >
+          <div class="project card mb-4">
+            <img
+              src="../assets/images/projects-logo/project-logo-10.png"
+              class="card-img-top"
+              alt="project-image"
+            />
+            <h5 class="card-title p-3">Tasty Food App</h5>
+          </div>
+        </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/react-food-delivery-app"
+          target="_blank"
+          title="View source code"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
+      </div>
+      <!-- project -->
+      <div class="project-container col-md-3 p-0 m-2">
+        <a
           href="https://bouncer-store-pi.vercel.app/"
           target="_blank"
           class="btn p-0"
