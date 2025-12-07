@@ -11,19 +11,13 @@
         <!-- Text Section -->
         <div class="col-lg-7 col-md-6 text-center">
           <div class="about-text">
-            <p>
-              I’m a Front-End Developer with over a year of experience building responsive, user-friendly
-              websites. I’m passionate about UI effects, animations, and creating smooth, dynamic user experiences.
-
-
-            </p>
-            <p>
-              I’m detail-oriented, a strong problem solver, and enjoy working on creative, ambitious projects with
-              positive teams. Always learning and growing, I stay up-to-date with the latest in front-end development.
-            </p>
+            <p>I'm Fathi, a web developer driven by the excitement of turning business ideas into real, usable
+              products. I chose the web because it gives me the freedom to build, test, and bring ideas to life. I love
+              working on challenges that push me to grow and learn something new every day. If you have an idea you want
+              to bring to life, let’s build it together.</p>
 
             <a class="btn btn-primary btn-xl mt-4"
-              href="https://drive.google.com/uc?export=download&id=1po5qWNQW07XCo7wAopI4sXdITLBKkqig"
+              href="https://drive.google.com/uc?export=download&id=1i9AryxobKkiPFh0shUTwHxqIX_S1Qf5c"
               download="Fathi Fayez-Resume.pdf">Download Resume</a>
           </div>
         </div>

@@ -5,6 +5,76 @@
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
         <a
+          href="https://next-dashboard-zeta-tawny.vercel.app/dashboard"
+          target="_blank"
+          class="btn p-0"
+        >
+          <div class="project card mb-4">
+            <img
+              src="../assets/images/projects-logo/project-logo-1.png"
+              class="card-img-top"
+              alt="project-image"
+            />
+            <h5 class="card-title p-3">Next Admin Dashboard</h5>
+          </div>
+        </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/next-dashboard"
+          target="_blank"
+          title="View source code"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
+      </div>
+
+      <!-- project -->
+      <div class="project-container col-md-3 p-0 m-2">
+        <a
+          href="https://react-leando-e-commerce-kc4h.vercel.app/"
+          target="_blank"
+          class="btn p-0"
+        >
+          <div class="project card mb-4">
+            <img
+              src="../assets/images/projects-logo/project-logo-2.png"
+              class="card-img-top"
+              alt="project-image"
+            />
+            <h5 class="card-title p-3">Leando E-commerce</h5>
+          </div>
+        </a>
+        <!-- source code link -->
+        <a
+          class="github-icon"
+          href="https://github.com/fathi-fayez/react-leando-e-commerce"
+          target="_blank"
+          title="View source code"
+          ><i class="fa-brands fa-github" style="color: #4078c0"></i
+        ></a>
+      </div>
+
+      <!-- project -->
+      <div class="project-container col-md-3 p-0 m-2 rounded">
+        <a
+          href="https://cafvy.web-pioneer.cloud/"
+          target="_blank"
+          class="btn p-0"
+        >
+          <div class="project card mb-4">
+            <img
+              src="../assets/images/projects-logo/project-logo-9.png"
+              class="card-img-top"
+              alt="project-image"
+            />
+            <h5 class="card-title p-3">Cafvy booking app</h5>
+          </div>
+        </a>
+      </div>
+
+      <!-- project -->
+      <div class="project-container col-md-3 p-0 m-2">
+        <a
           href="https://wisdom-store.vercel.app/"
           target="_blank"
           class="btn p-0"
@@ -55,31 +125,6 @@
       <!-- project -->
       <div class="project-container col-md-3 p-0 m-2">
         <a
-          href="https://bouncer-store-pi.vercel.app/"
-          target="_blank"
-          class="btn p-0"
-        >
-          <div class="project card mb-4">
-            <img
-              src="../assets/images/projects-logo/project-logo-7.png"
-              class="card-img-top"
-              alt="project-image"
-            />
-            <h5 class="card-title p-3">Bouncer Store</h5>
-          </div>
-        </a>
-        <!-- source code link -->
-        <a
-          class="github-icon"
-          href="https://github.com/fathi-fayez/bouncer-store"
-          target="_blank"
-          title="View source code"
-          ><i class="fa-brands fa-github" style="color: #4078c0"></i
-        ></a>
-      </div>
-      <!-- project -->
-      <div class="project-container col-md-3 p-0 m-2">
-        <a
           href="https://admin-dashboard-xi-lime.vercel.app/"
           target="_blank"
           class="btn p-0"
@@ -97,124 +142,6 @@
         <a
           class="github-icon"
           href="https://github.com/fathi-fayez/admin-dashboard"
-          target="_blank"
-          title="View source code"
-          ><i class="fa-brands fa-github" style="color: #4078c0"></i
-        ></a>
-      </div>
-      <!-- project -->
-      <div class="project-container col-md-3 p-0 m-2 rounded">
-        <a
-          href="https://e-commerce-website-375i.vercel.app/"
-          target="_blank"
-          class="btn p-0"
-        >
-          <div class="project card mb-4">
-            <img
-              src="../assets/images/projects-logo/project-logo-1.png"
-              class="card-img-top"
-              alt="project-image"
-            />
-            <h5 class="card-title p-3">E-commerce</h5>
-          </div>
-        </a>
-        <!-- source code link -->
-        <a
-          class="github-icon"
-          href="https://github.com/fathi-fayez/e-commerce-website"
-          target="_blank"
-          title="View source code"
-          ><i class="fa-brands fa-github" style="color: #4078c0"></i
-        ></a>
-      </div>
-      <!-- project -->
-      <div class="project-container col-md-3 p-0 m-2 rounded">
-        <a
-          href="https://cafvy.web-pioneer.cloud/"
-          target="_blank"
-          class="btn p-0"
-        >
-          <div class="project card mb-4">
-            <img
-              src="../assets/images/projects-logo/project-logo-9.png"
-              class="card-img-top"
-              alt="project-image"
-            />
-            <h5 class="card-title p-3">Cafvy booking app</h5>
-          </div>
-        </a>
-      </div>
-      <!-- project -->
-      <div class="project-container col-md-3 p-0 m-2">
-        <a
-          href="https://car-shop-one-mu.vercel.app/"
-          target="_blank"
-          class="btn p-0"
-        >
-          <div class="project card mb-4">
-            <img
-              src="../assets/images/projects-logo/project-logo-2.png"
-              class="card-img-top"
-              alt="project-image"
-            />
-            <h5 class="card-title p-3">Car shop</h5>
-          </div>
-        </a>
-        <!-- source code link -->
-        <a
-          class="github-icon"
-          href="https://github.com/fathi-fayez/car-shop"
-          target="_blank"
-          title="View source code"
-          ><i class="fa-brands fa-github" style="color: #4078c0"></i
-        ></a>
-      </div>
-      <!-- project -->
-      <div class="project-container col-md-3 p-0 m-2">
-        <a
-          href="https://european-weather-forecast.vercel.app/"
-          target="_blank"
-          class="btn p-0"
-        >
-          <div class="project card mb-4">
-            <img
-              src="../assets/images/projects-logo/project-logo-3.png"
-              class="card-img-top"
-              alt="project-image"
-            />
-            <h5 class="card-title p-3">Weather forecast</h5>
-          </div>
-        </a>
-        <!-- source code link -->
-        <a
-          class="github-icon"
-          href="https://github.com/fathi-fayez/European-Weather-Forecast-project"
-          target="_blank"
-          title="View source code"
-          ><i class="fa-brands fa-github" style="color: #4078c0"></i
-        ></a>
-      </div>
-
-      <!-- project -->
-      <div class="project-container col-md-3 p-0 m-2">
-        <a
-          href="https://travel-app-blond.vercel.app/"
-          target="_blank"
-          class="btn p-0"
-        >
-          <div class="project card mb-4">
-            <img
-              src="../assets/images/projects-logo/project-logo-5.png"
-              class="card-img-top"
-              alt="project-image"
-            />
-            <h5 class="card-title p-3">Travel App</h5>
-          </div>
-        </a>
-        <!-- source code link -->
-        <a
-          class="github-icon"
-          href="https://github.com/fathi-fayez/travel-app"
           target="_blank"
           title="View source code"
           ><i class="fa-brands fa-github" style="color: #4078c0"></i
@@ -261,9 +188,11 @@ export default {
 .my-work {
   padding-top: 100px;
   padding-bottom: 100px;
+
   h1 {
     margin-bottom: 40px;
   }
+
   .project-container {
     width: 300px;
     height: 200px;
@@ -272,19 +201,23 @@ export default {
       0px 2px 4px 0px rgb(0 0 0 / 12%);
     position: relative;
     overflow: hidden;
+
     .card-img-top {
       width: 100%;
     }
   }
+
   .project-container:hover {
     .github-icon {
       bottom: 3px;
     }
   }
+
   .project {
     overflow: hidden;
     position: relative;
   }
+
   .project::before {
     content: "";
     position: absolute;
@@ -298,14 +231,17 @@ export default {
     opacity: 0;
     z-index: 2;
   }
+
   .project:hover::before {
     animation: flashing 0.8s;
   }
+
   .project:hover {
     h5 {
       color: rgb(42, 13, 235);
     }
   }
+
   .github-icon {
     position: absolute;
     left: 10px;
@@ -313,10 +249,12 @@ export default {
     font-size: 35px;
     transition: 0.3s;
   }
+
   .github-icon:hover {
     font-size: 40px;
   }
 }
+
 @keyframes flashing {
   0%,
   40% {
